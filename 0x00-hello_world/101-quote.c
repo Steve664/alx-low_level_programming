@@ -1,8 +1,10 @@
 #include <unistd.h>
+
 /**
-* main - Prints text
+*main - Prints text
 *
-* Return: returns 1 
+*Return: Always 1
+*
 */
 int main(void)
 {
