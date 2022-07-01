@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - Prints alphabet 
+* main - Prints alphabet
 *
 * Return: Always (Success)
 */
@@ -13,7 +13,6 @@ int main(void)
 	for (a = 'a' ; a <= 'z' ; a++)
 	{
 		putchar(a);
-		putchar('\n');
 	}
 	return (0);
 }
