@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - Prints alphabet
+* main - Prints base 10 numbers
 *
 * Return: Always (Success)
 */
@@ -12,8 +12,9 @@ int main(void)
 
 	for (a = 0 ; a <= 9 ; a++)
 	{
-		printf("%d \n", a);
+		printf("%d", a);
 	}
+	printf("\n");
 
 	return (0);
 }
