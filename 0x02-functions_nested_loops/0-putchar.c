@@ -2,8 +2,7 @@
 /**
 *main - prints _putchar
 *
-*Return: 0 when successful.
-*
+*Return: return 0 successful
 */
 int main(void)
 {
@@ -15,6 +14,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n');	
+	_putchar('\n');
 	return (0);
 }
