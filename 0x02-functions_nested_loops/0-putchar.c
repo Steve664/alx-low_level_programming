@@ -1,29 +1,23 @@
-#include <stdlib.h>
-#include <time.h>
+
 #include <stdio.h>
 
-/**
-*_putchar - function prints alphabet
-*
-*/
-void _putchar(void)
-{
-	char a;
 
-	for (a = 'a' ; a <= 'z' ; a++)
-	{
-		putchar(a);
-	}
-	putchar('\n');
-}
 /**
-*main - main function
+*main - prints _putchar
 *
 *Return: 0 when successful.
 *
 */
 int main(void)
 {
-	_putchar();
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
